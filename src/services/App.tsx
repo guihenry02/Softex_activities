@@ -4,7 +4,7 @@ const App: React.FC = () => {
   const [items, setItems] = useState<any[]>([]);
   
   useEffect(() => {
-    // Chamada GET para carregar os itens ao montar o componente
+    
     const fetchItems = async () => {
       try {
         const data = await getItems();

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = 'http://localhost:3333'; // Altere a porta se necessário
+const apiUrl = 'http://localhost:3333'; 
 
 export const getItems = async () => {
   try {
